@@ -7,7 +7,7 @@ import "../styles/themify-icons.css";
 import '../styles/sass/style.scss'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   title: "Resume",
   description: "Creative web developer",
@@ -18,7 +18,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
       <html lang="en">
       <body>{children}</body>
-      <GoogleAnalytics gaId="G-XYZ" />
+      <Analytics />
 
       </html>
   );
