@@ -19,11 +19,10 @@ export const Hero =() => {
                             </div>
                             <div className="btns">
                                 <a href="/" className="theme-btn">Contact Me</a>
-                                <a href="https://drive.google.com/file/d/1qejoZ-SaqatQRYJoNimK1Y0B374IkXTY/view"
+                                <a href="https://drive.google.com/file/d/1tfnSDTw5pQf9OAMcIUyKmmSejYOQ-jIs/view"
                                    className="theme-btn"
-
                                 >
-                                    Open CV
+                                    Download CV
                                 </a>
                             </div>
                         </div>
