@@ -60,9 +60,7 @@ const ProjectSection = (props: any) => {
         console.log(project);
     };
 
-
     return (
-
         <section className="tp-project-section section-padding">
             <div className="container">
                 <div className="tp-section-title">

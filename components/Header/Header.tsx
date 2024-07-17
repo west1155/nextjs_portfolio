@@ -30,9 +30,9 @@ export const Header = (props: any) => {
                             <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                 <button className="menu-close"><i className="ti-close"></i></button>
                                 <ul className="nav navbar-nav mb-2 mb-lg-0">
-                                    <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={500}
+                                    <li><Link activeClass="active" to="tp-hero-section-1" spy={true} smooth={true} duration={500}
                                               offset={-100}>Main</Link></li>
-                                    <li><Link activeClass="active" to="project" spy={true} smooth={true} duration={500}
+                                    <li><Link activeClass="active" to="tp-project-section" spy={true} smooth={true} duration={500}
                                               offset={-95}>Portfolio</Link>
                                     </li>
                                     <li><Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}
