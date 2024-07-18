@@ -1,8 +1,8 @@
-import Image from 'next/image';
+'use client'
 import React from 'react';
 import {Link} from 'react-scroll'
-import MobileMenu from '../MobileMenu/MobileMenu'
-import Logo from '../../public/images/logo.png'
+import MobileMenu from './MobileMenu/MobileMenu'
+import Logo from '../public/images/logo.png'
 import NavLink from 'next/link'
 
 export const Header = (props: any) => {
