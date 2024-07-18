@@ -8,6 +8,8 @@ import '../styles/sass/style.scss'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Analytics } from "@vercel/analytics/react"
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/Navbar/Navbar";
 export const metadata: Metadata = {
   title: "Resume",
   description: "Creative web developer",
@@ -17,9 +19,10 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
       <html lang="en">
+      <Navbar/>
       <body>{children}</body>
+      <Footer/>
       <Analytics />
-
       </html>
   );
 }

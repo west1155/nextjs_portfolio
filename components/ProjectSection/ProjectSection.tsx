@@ -10,6 +10,7 @@ import ps1img2 from '/public/images/project-single/4.jpg'
 import ps1img3 from '/public/images/project-single/5.jpg'
 import psub1img1 from '/public/images/project-single/2.jpg'
 import psub1img2 from '/public/images/project-single/3.jpg'
+import {LaunchAppComponent} from "@/components/ProjectSection/LaunchAppComponent";
 
 type ProjectType = {
     Id:string,
@@ -85,6 +86,7 @@ const ProjectSection = (props: any) => {
                     </div>
                 </div>
             </div>
+            {/*<LaunchAppComponent />*/}
             <div className="visible-rotate-text">
                 <h1>My Projects</h1>
             </div>

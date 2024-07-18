@@ -9,11 +9,8 @@ import ContactArea from "@/components/Contacts/ContactsArea";
 export default function Home() {
     return (
         <>
-            <Navbar/>
             <Hero/>
             <ProjectSection />
-         {/*   <ContactArea/>*/}
-            <Footer/>
         </>
 
     );
